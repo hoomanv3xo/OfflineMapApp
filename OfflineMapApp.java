@@ -25,7 +25,7 @@ import de.fhpotsdam.unfolding.utils.MapUtils;
  *   - UP / DOWN arrow keys raise / lower the minimum magnitude
  *   - R refreshes the data right now
  */
-public class OfflineMapApp6 extends PApplet {
+public class OfflineMapApp extends PApplet {
 
 	public static String mbTilesString = "data/blankLight-1-3.mbtiles";
 
@@ -355,7 +355,7 @@ public class OfflineMapApp6 extends PApplet {
 	}
 
 	public static void main(String[] args) {
-		PApplet.main("OfflineMapApp6");
+		PApplet.main("OfflineMapApp");
 	}
 
 }
